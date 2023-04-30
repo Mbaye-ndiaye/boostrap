@@ -49,3 +49,13 @@
     color: #fff;
     background-color: var(--bs-teal);
 }
+.btn-outline-infos{
+    color: var(--bs-teal);
+    border-color: green;
+    transition: 0.5s;
+} 
+.btn-outline-infos:hover,
+.btn-outline-info:active{
+    color: #fff;
+    background-color: rgba(0, 0, 255, 0.842);
+}
